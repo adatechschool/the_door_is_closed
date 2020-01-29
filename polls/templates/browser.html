@@ -1,0 +1,8 @@
+<h1>Be careful, the doors might be closed.</h1>
+
+<form action="" method="POST">
+  {% csrf_token %}
+  Enter the short webiste url: <br>
+  <input type="text" name="site" value={{site}}>
+  <input type="submit" value="Have fun!" />
+</form>
