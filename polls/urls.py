@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('lmao', views.print_submit, name='print_submit'),
+    path('red', views.redirect_site, name='redirect_site'),
 ]

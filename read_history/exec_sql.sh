@@ -7,4 +7,3 @@ script_sql="/script_get_history.sql"
 exec_tran="${script_bsh}${script_sql}"
 
 sqlite3 < $exec_tran
-read
