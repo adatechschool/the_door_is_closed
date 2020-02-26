@@ -3,6 +3,7 @@
 <form action="/" method="POST">
   {% csrf_token %}
   Enter the short webiste url: <br>
-  <input type="text" name="site" value={{site}}>
-  <button type="submit">Have fun!</button>
+  <input type="text" name="site">
+  <!-- <input type="submit" value={{site}}> -->
+  <button type="submit" value={{site}}>Have fun!</button>
 </form>

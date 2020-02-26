@@ -3,10 +3,10 @@
 import os
 import sys
 
-def create_db():
-    exec_sql = "read_history\\exec_sql.sh"
-    os.system(exec_sql)
-    return None
+# def create_db():
+#     exec_sql = "read_history\\exec_sql.sh"
+#     os.system(exec_sql)
+#     return None
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'the_door_is_closed.settings')
@@ -22,5 +22,5 @@ def main():
 
 
 if __name__ == '__main__':
-    create_db()
+    # create_db()
     main()
